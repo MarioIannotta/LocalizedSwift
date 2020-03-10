@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LocalizedSwift'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Localize UI Components in a simple and declarative way'
   s.description      = <<-DESC
   LocalizedSwift provide a property wrapper to localize UI Components using a simple declarative qualifier.
@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/MarioIannotta/LocalizedSwift.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/MarioIannotta'
   s.ios.deployment_target = '10.0'
-  s.source_files = 'LocalizedSwift/Sources/**/*'
+  s.source_files = 'Sources/**/*'
 end

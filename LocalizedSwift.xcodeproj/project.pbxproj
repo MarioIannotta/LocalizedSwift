@@ -27,7 +27,7 @@
 		AC2CA9322400734700F0F6E1 /* AnotherFile.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = AnotherFile.strings; sourceTree = "<group>"; };
 		AC2CA9332400734700F0F6E1 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		AC2CA9342400734700F0F6E1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC2CA93E240073FF00F0F6E1 /* LocalizedSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LocalizedSwift; sourceTree = "<group>"; };
+		AC2CA93E240073FF00F0F6E1 /*  */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ""; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		AC2CA90A2400731E00F0F6E1 = {
 			isa = PBXGroup;
 			children = (
-				AC2CA93E240073FF00F0F6E1 /* LocalizedSwift */,
+				AC2CA93E240073FF00F0F6E1 /*  */,
 				AC2CA9152400731E00F0F6E1 /* Example */,
 				AC2CA9142400731E00F0F6E1 /* Products */,
 				AC2CA93F2400744200F0F6E1 /* Frameworks */,
@@ -309,6 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.LocalizedSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -329,6 +330,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.LocalizedSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
