@@ -71,3 +71,10 @@ extension UITextField: Localizable {
         placeholder = string
     }
 }
+
+extension UIImageView: Localizable {
+    
+    public func setLocalizedString(_ string: String, for state: UIControl.State) {
+        image = UIImage(named: string)
+    }
+}

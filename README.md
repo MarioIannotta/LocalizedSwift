@@ -16,7 +16,7 @@
 # Usage
 
 It is possible to localize a class that conforms `Localizable`  adding `@Localized("YouKey")` before the component declaration.
-`UILabel`, `UIButton` and `UITextField` already conform `Localizable`.
+`UILabel`, `UIButton`, `UITextField` and `UIImageView` already conform `Localizable`.
 ```swift
 // In the following example the string for the key "Label.Title" will be searched in the file "Localizable.strings".
 @Localized("Label.Title")
