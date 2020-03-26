@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'LocalizedSwift'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Localize UI Components in a simple and declarative way'
   s.description      = <<-DESC
   LocalizedSwift provide a property wrapper to localize UI Components using a simple declarative qualifier.
