@@ -10,7 +10,10 @@ import UIKit
 import Localized
 
 class ViewController: UIViewController {
-
+    
+    @Localized("Image.Earth")
+    @IBOutlet private var imageView: UIImageView!
+    
     @Localized("Label.Title")
     @IBOutlet private var label: UILabel!
 
